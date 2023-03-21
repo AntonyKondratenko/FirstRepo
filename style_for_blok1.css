@@ -1,0 +1,128 @@
+@font-face {
+    font-family:Raleway-Bold;
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(./fonts/OpenSand-Bold.ttf);
+}
+
+.container {
+}
+
+.top {
+    width: 1170px;
+    height: 150px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    margin: auto;
+}
+.text_top {
+    text-align: center;
+    margin-top: 50px;
+}
+.line {
+    margin: auto;
+    width: 170px;
+    height: 0px;
+    color: #ec7979    
+}
+.podzag {
+    width: 1169px;
+    height: 21px;
+    margin: auto;
+    margin-top: 40px;
+}
+.text_podzag {
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px; 
+}
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+}
+.first_advantage {
+    width: 370px;
+    height: 470px;
+    display: inline-block;
+}
+    .ikonka_1 {
+        width: 92px;
+        height: 92px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EC7979;
+        border-radius: 50%;
+        Display:flex;
+        Align-items:center;
+        Justify-content:center;
+    }   
+    .TD_1 {
+        width: 369px;
+        height: 100px;
+        margin-top: 39px;
+        font-family: OpenSans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        Display:flex;
+        Align-items:center;
+        Justify-content:center;
+        text-transform: capitalize;
+    }
+    .Text_1 {
+        width: 370px;
+        height: 105px;
+        margin-top: 8px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+.second_advantage {
+    width: 370px;
+    height: 470px;
+    display: inline-block;
+    margin-left: 22px;
+}
+    .ikonka_2 {
+        width: 92px;
+        height: 92px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EC7979;
+        border-radius: 50%;
+        Display:flex;
+        Align-items:center;
+        Justify-content:center;
+    }
+.third_advantage {
+    width: 370px;
+    height: 470px;
+    display: inline-block;
+    margin-left: 22px;
+}
+    .ikonka_3 {
+        width: 92px;
+        height: 92px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EC7979;
+        border-radius: 50%;
+        Display:flex;
+        Align-items:center;
+        Justify-content:center;
+    }
