@@ -1,0 +1,418 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    
+}
+    @font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+    @font-face {
+    font-family: Kaushan;
+    src: url(../fonts/KaushanScript-Regular.ttf);
+    }
+    @font-face {
+        font-family: Montserrat;
+        src: url(../fonts/Montserrat-Regular.ttf);
+    }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    /*Начинаются стили по блоку Главной страницы*/
+    .main {
+        max-width: 1510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url(../images-2/main-image2.svg);
+        margin-bottom: 42px;
+        .main__header {
+            width: 1170px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 77px;
+            .main-logo {
+                height: 100px;
+                display: flex;
+                align-items: center;
+            }
+            .navigation {
+                display: flex;
+                .navigation-part {
+                    width: 114px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    justify-content: center;
+                }
+                .navigation-part-last {
+                    width: 114px;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    justify-content: center;
+                    margin-right: 17px;
+                }
+                .glasses {
+                    width: 20.2px;
+                    height: 15.38px;
+                    margin-right: 39.41px;
+                }
+                .lupa {
+                    width: 19px;
+                    height: 19.02px;
+                }
+            }
+        }
+        .main__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 116px;
+            .main__content-header {
+                max-width: 1170px;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: Kaushan;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 93px;
+                color: #FFFFFF;
+            }
+            .main__content-preheader {
+                max-width: 1170px;
+                height: 370px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 144px;
+                line-height: 176px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 44px;
+            }
+            .main__content-line {
+                width: 170px;
+                border-bottom: 4px solid #FFFFFF;
+                margin-bottom: 74.42px;                
+            }
+            .main__content-button {
+                width: 369px;
+                height: 77.58px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: transparent;
+                color: #FFFFFF;
+                border: 4px solid #FFFFFF;
+            }
+        }
+        .main__footer {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1170px;
+            gap: 30px;
+            .main__footer-menu {
+                width: 270px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                border-top: #FFFFFF 4px solid;
+                font-family: Raleway;
+                font-style: normal;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21.13px;
+            }
+            .main__footer-menu span {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 42.26px;
+            }
+        }
+    }
+    /*Начинаются стили по блоку About company*/
+    .about {
+        max-width: 1186px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        margin: 0 auto 108px;
+        
+        .about__upheader {
+            padding: 25px 0;
+            max-width: 1170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Kaushan;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 44px;
+            color: #2D3033;
+        }
+        .about__header {
+            padding: 19.5px 0;
+            max-width: 1170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #2D3033;
+            margin-bottom: 24px;
+        }
+        .about__line {
+            width: 170px;
+            border: 4px solid #F38281;
+        }
+        .about__content {
+            max-width: 1170px;
+            padding: 38px 0;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 58px;
+        }
+        .about__images {
+            width: 1170px; /*здесь надо подумать как избежать фиксированной ширины*/
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            .about__images-block1-1 {
+                position: absolute;
+                z-index: 1;
+                bottom: 16px;
+                left: -16px;
+                width: calc(33.3% - 20px);
+                height: 338px;
+                background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 129px;
+                .about__images-block1-1-img {
+                    margin-bottom: 30px;
+                }
+                .super-team {
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 28px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;;
+                } 
+            }
+            .about__images-block1 {
+                background: #95E1D3;
+                width: calc(33.3% - 20px);
+                height: 338px;
+                position: relative;
+                z-index: 0;
+            }
+            .about__images-block2 {
+                background-image: url(../images-2/about-2.svg);
+                width: calc(33.3% - 20px);
+                height: 338px;
+            }
+            .about__images-block3 {
+                background-image: url(../images-2/about-3.svg);
+                width: calc(33.3% - 20px);
+                height: 338px;
+            }
+        }
+    }
+    /*Начинаются стили по блоку c цифрами компании*/
+    .figures {
+        max-width: 1510px;
+        display: flex;
+        padding: 0 170px;
+        margin: 0 auto 42px;
+        background-color: #95E1D3;
+        .figure-part {
+            width: 234px;
+            max-height: 250px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #95E1D3;
+            border-left: #FFFFFF 1px solid;
+            color: #FFFFFF;
+        }
+            .figure-part-last {
+            width: 234px;
+            height: 250px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #95E1D3;
+            border-left: #FFFFFF 1px solid;
+            border-right: #FFFFFF 1px solid;
+            color: #FFFFFF;
+        }
+        .figure-part span {
+            font-size: 24px;
+            line-height: 28.18px;
+        }
+        .figure-part-last span {
+            font-size: 24px;
+            line-height: 28.18px;
+        }
+    }
+    /* Начинаются стили блоку преимущества компании*/
+    .advantage {
+        max-width: 1170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 91px;
+        .advantage__upheader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 18px 0;
+            text-align: center;
+            font-family: Kaushan;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 44px;
+            color: #2D3033;
+        }
+        .advantage__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 19.5px 0;
+            text-align: center;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 42px;
+            color: #2D3033;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+        .advantage__line {
+            width: 170px;
+            border: 4px solid #F38281;
+            margin-bottom: 87.35px;
+        }
+        .advantage__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 150.21px;
+            .advantage__content-box {
+                display: flex;
+                .advantage__content-icon {
+                    margin-right: 33.44px;
+                }
+                .advantage__content-text {
+                    display: flex;
+                    flex-direction: column;
+                    .advantage__content-header {
+                        width: 270px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        display: flex;
+                        align-items: center;
+                        text-transform: uppercase;
+                        padding: 11.5px 0;
+                        color: #2D3033;
+                    }
+                    .advantage__content-preheader {
+                        width: 270px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+                        padding: 19px 0;
+                        color: #2D3033;
+                    }
+                }
+            }
+        }
+    }
+}
